@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trekker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_admin__mainpage">Admin_Mainpage</string>
+    <string name="title_activity_driver__mainpage">Driver_Mainpage</string>
+    <string name="title_activity_student__mainpage">Student_Mainpage</string>
+    <string name="title_activity_registration__driver">Registration_Driver</string>
+    <string name="title_activity_driver__lat_long__class">Driver_LatLong_Class</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_registration__student">Registration_Student</string>
+
+</resources>

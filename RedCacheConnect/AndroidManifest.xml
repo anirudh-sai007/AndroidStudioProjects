@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.redcacheconnect"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.redcacheconnect.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.AddBloodBankActivity"
+            android:label="@string/title_activity_add_blood_bank" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.ViewBloodBankActivity"
+            android:label="@string/title_activity_view_blood_bank" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.ViewBloodBankDetailsActivity"
+            android:label="@string/title_activity_view_blood_bank_details" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.SendMsgActivity"
+            android:label="@string/title_activity_send_msg" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.MsgSendingFinalActivity"
+            android:label="@string/title_activity_msg_sending_final" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.MsgNamesActivity"
+            android:label="@string/title_activity_msg_names" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.MsgUsernamesActivity"
+            android:label="@string/title_activity_msg_usernames" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.CallActivity"
+            android:label="@string/title_activity_call" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.MsgActivity"
+            android:label="@string/title_activity_msg" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.BloodBankDetailsActivity"
+            android:label="@string/title_activity_blood_bank_details" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.BloodBankFullDetailsActivity"
+            android:label="@string/title_activity_blood_bank_full_details" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.EmergencyActivity"
+            android:label="@string/title_activity_emergency" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.PostActivity"
+            android:label="@string/title_activity_post" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.ViewMsgActivity"
+            android:label="@string/title_activity_view_msg" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.BloodTipsActivity"
+            android:label="@string/title_activity_blood_tips" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.FeedBackActivity"
+            android:label="@string/title_activity_feed_back" >
+        </activity>
+        <activity
+            android:name="com.example.redcacheconnect.EActivity"
+            android:label="@string/title_activity_e" >
+        </activity>
+    </application>
+
+</manifest>

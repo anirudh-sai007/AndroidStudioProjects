@@ -1,0 +1,45 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodTipsActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Eligibility Requirements
+        
+        
+In order to donate you must meet the requirements listed below.
+Please note that this is not a complete list; other eligibility factors will apply.
+
+--->Be in good health and feeling well
+--->Be at least 18 years old
+--->Weigh at least 110 pounds
+--->Are not pregnant
+--->Possess a valid government-issued photo ID (Example: Driver’s License, Military ID, etc.)
+
+
+Do NOT donate if any of the following apply to you:
+
+
+--->Have been diagnosed with HIV/AIDS, Hepatitis B, or Hepatitis C
+--->Have ever used needles to take drugs, steroids, or anything not prescribed by your doctor
+--->Are a male who has had sexual contact with another male, even once, since 1977
+--->Have ever taken money, drugs, or any other form of payment for sex since 1977
+--->Have had sexual contact in the past 12 months with anyone described above
+--->Have had syphilis or gonorrhea in the past 12 months
+--->In the past 12 months have been in juvenile detention, lockup, jail, or prison for more than 72 hours
+--->Have lived in, or visited the United Kingdom, which includes England, Northern Ireland, Scotland, Wales, the
+Isle of Mann, or Channel Islands from 1980-1996 for a total of 3 months or more
+--->Have spent 5 years or more (total) in Europe since 1980
+--->Have visited a malarial-endemic country within the last year" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    tools:context=".AboutUsActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Along with helping save lives, there are a number of reasons why donating blood is important.
+
+--->A single donation can save three lives. One blood donation provides different blood components that can help up to three different people.
+
+--->Blood cannot be manufactured. Despite medical and technological advances, blood cannot be made, so donations are the only way we can give blood to those who need it.
+
+--->Blood is needed every two seconds. Nearly 21 million blood components are transfused in the U.S. every year.
+
+--->Only 37 percent of the country’s population is able to donate blood.
+
+--->Your friends or family may need your blood someday."
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0e1872"
+            android:text="                   Patient Information                   ________________________________________"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Patient Name"
+            android:textColor="#f70717"
+            android:textColorHint="#0faf15" >
+
+            <requestFocus />
+        </EditText>
+
+       <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp" />
+
+    
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#ff2a05" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#ff2a05" />
+        <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Area"
+            android:textColor="#f70717"
+            android:textColorHint="#ff9400" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Hospital Name"
+            android:textColor="#f70717"
+            android:textColorHint="#ff9400" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Hospital Address"
+            android:textColorHint="#ff9400" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="on or before"
+            android:inputType="phone"
+            android:textColor="#f70717"
+            android:textColorHint="#ff9400" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Information                                            ______________________________________________"
+            android:text="                   Contact Information                   ________________________________________"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0e1872" />
+
+         <EditText
+             android:id="@+id/editText6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="User Name"
+             android:textColor="#f70717"
+             android:textColorHint="#ff9400" />
+         
+          <EditText
+              android:id="@+id/editText7"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:ems="10"
+              android:hint="Contact Number"
+              android:inputType="phone"
+              android:textColor="#f70717"
+              android:textColorHint="#ff9400" />
+         
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E-Mail Id"
+            android:inputType="textEmailAddress"
+            android:textColor="#f70717"
+            android:textColorHint="#ff9400" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:textColor="#0fc11e" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repost"
+            android:textColor="#ef0b17" />
+        
+    </LinearLayout>
+  
+</ScrollView>
